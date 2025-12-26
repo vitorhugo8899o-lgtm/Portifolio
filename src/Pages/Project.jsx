@@ -1,6 +1,10 @@
-import { Github, ExternalLink } from 'lucide-react';
-
+import { Github, ExternalLink, ChevronLeftIcon } from 'lucide-react';
+import { useNavigate } from "react-router-dom"
 const Projects = () => {
+
+    const navigate = useNavigate()
+
+
     const meusProjetos = [
         {
             titulo: "API de E-commerce",
@@ -10,7 +14,7 @@ const Projects = () => {
         },
         {
             titulo: "Encurtador de URL com sistema de autentificação",
-            descricao: "Encurtador de URL utilizando hashid e PyJWT para as requisões",
+            descricao: "Encurtador de URL utilizando hashid e JWT para gerenciar o uso da aplicação",
             linkGithub: "https://github.com/vitorhugo8899o-lgtm/URL_shortener",
             tech: ["Python", "SQLite3", "FastAPI"]
         },
@@ -30,6 +34,9 @@ const Projects = () => {
 
     return (
         <div className="w-full min-h-screen bg-zinc-800 p-8 flex flex-col items-center">
+            <button onClick={() => navigate(-1)} className="absolute left-6 top-6">
+                <ChevronLeftIcon className="text-slate-100 hover:text-slate-300 w-8 h-8" />
+            </button>
             <h2 className="text-4xl text-white font-medium mb-12">Projetos Realizados</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full">

@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import Navigation from './componentes/NavigatePages'
 import { Github } from 'lucide-react';
 import { Mail } from 'lucide-react';
 
