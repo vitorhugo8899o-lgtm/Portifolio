@@ -1,4 +1,5 @@
-import { Github, Mail } from 'lucide-react';
+import { Github, Mail, } from 'lucide-react';
+import { FaLinkedin } from "react-icons/fa";
 
 function App() {
   return (
@@ -40,6 +41,13 @@ function App() {
               className="p-3 bg-neutral-600 rounded-full hover:bg-zinc-500 transition-colors group"
             >
               <Mail className='text-white w-7 h-7 md:w-8 md:h-8 group-hover:scale-110 transition-transform' />
+            </a>
+
+            <a href="www.linkedin.com/in/vitor-hugo-rodrigues-de-lins"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 bg-neutral-600 rounded-full hover:bg-zinc-500 transition-colors group">
+              <FaLinkedin className='text-white w-7 h-7 md:w-8 md:h-8 group-hover:scale-110 transition-transform' />
             </a>
           </div>
         </div>
