@@ -29,6 +29,12 @@ const Projects = () => {
             descricao: "API de requisões sobre atividades e informações de perfil de usuarios no github para rodar no terminal",
             linkGithub: "https://github.com/vitorhugo8899o-lgtm/github-activity",
             tech: ["Python", "Request", "Rich"]
+        },
+        {
+            titulo: "MongoForge-CLI",
+            descricao: "MongoForge-CLI é um simulador de requisões para testar a escalabilidade e a integridade de dados em ambientes NoSQL",
+            linkGithub: "https://github.com/vitorhugo8899o-lgtm/MongoForge-CLI",
+            tech: ["Python", "MongoDB", "Factoryboy", "Pydantic", "Ruff"]
         }
     ];
 
