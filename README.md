@@ -2,8 +2,6 @@
 
 Este é o meu portfólio pessoal, desenvolvido para mostrar meus projetos, habilidades técnicas e facilitar o contato profissional. O site é focado em uma interface limpa, moderna e totalmente responsiva.
 
-## 👤 Sobre Mim
-Olá! Eu sou o **Vítor Hugo**, desenvolvedor focado em Backend. Atualmente, este projeto serve como minha vitrine principal na web.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -17,7 +15,3 @@ Olá! Eu sou o **Vítor Hugo**, desenvolvedor focado em Backend. Atualmente, est
 ## 📱 Funcionalidades
 * **Design Responsivo**: Adaptado para dispositivos móveis, tablets e desktops.
 * **Links Dinâmicos**: Acesso direto ao GitHub e contato via E-mail.
-
-
-
-
