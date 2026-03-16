@@ -13,7 +13,7 @@ const Projects = () => {
             tech: ["FastAPI", "PostgreSQL", "Docker"]
         },
         {
-            titulo: "Encurtador de URL com sistema de autentificação",
+            titulo: "URL_shortener",
             descricao: "Encurtador de URL utilizando hashid e JWT para gerenciar o uso da aplicação",
             linkGithub: "https://github.com/vitorhugo8899o-lgtm/URL_shortener",
             tech: ["Python", "SQLite3", "FastAPI"]
@@ -35,11 +35,17 @@ const Projects = () => {
             descricao: "MongoForge-CLI é um simulador de requisões para testar a escalabilidade e a integridade de dados em ambientes NoSQL",
             linkGithub: "https://github.com/vitorhugo8899o-lgtm/MongoForge-CLI",
             tech: ["Python", "MongoDB", "Factoryboy", "Pydantic", "Ruff"]
+        },
+        {
+            titulo: "Stress-Test-on-render",
+            descricao: "Este projeto é um estudo prático de System Design orientado a alta concorrência,focado em extrair o máximo desempenho possível de uma infraestrutura extremamente limitada.",
+            linkGithub: "https://github.com/vitorhugo8899o-lgtm/Stress-Test-on-render",
+            tech: ["Python 3.13 (Docker – python:3.13-slim)", "PostGreSQL", "Gunicorn", "Uvicorn Workers"]
         }
     ];
 
     return (
-        <div className="w-full min-h-screen bg-zinc-800 p-8 flex flex-col items-center">
+        <div className="w-full min-h-screen bg-zinc-900 p-8 flex flex-col items-center">
             <button onClick={() => navigate(-1)} className="absolute left-6 top-6">
                 <ChevronLeftIcon className="text-slate-100 hover:text-slate-300 w-8 h-8" />
             </button>
