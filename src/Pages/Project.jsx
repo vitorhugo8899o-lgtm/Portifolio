@@ -19,6 +19,12 @@ const Projects = () => {
             tech: ["Python", "SQLite3", "FastAPI"]
         },
         {
+            titulo: "Front_url",
+            descricao: "Este é o cliente web para o projeto URL_shortener. Uma aplicação rápida e totalmente responsiva que permite aos usuários gerenciar seus links encurtados com segurança.",
+            linkGithub: "https://github.com/vitorhugo8899o-lgtm/Front_url",
+            tech: ["JavaScprit", "React", "Vite", "Tailwind CSS", "Axios", "react-router-dom"]
+        },
+        {
             titulo: "Gerenciador de Tarefas (Backend)",
             descricao: "Simples TO DO list para rodar no terminal, salvando tarefas no JSON.",
             linkGithub: "https://github.com/vitorhugo8899o-lgtm/Lista-de-Tarefas",
@@ -41,6 +47,12 @@ const Projects = () => {
             descricao: "Este projeto é um estudo prático de System Design orientado a alta concorrência,focado em extrair o máximo desempenho possível de uma infraestrutura extremamente limitada.",
             linkGithub: "https://github.com/vitorhugo8899o-lgtm/Stress-Test-on-render",
             tech: ["Python 3.13 (Docker – python:3.13-slim)", "PostGreSQL", "Gunicorn", "Uvicorn Workers"]
+        },
+        {
+            titulo: "fastapi-redis-comments",
+            descricao: "O Redis-social-network é uma ferramenta de linha de comando (CLI) que simula uma rede social simples. Com ela, é possível criar usuários, publicar comentários e interagir com postagens por meio de curtidas.",
+            linkGithub: "https://github.com/vitorhugo8899o-lgtm/fastapi-redis-comments",
+            tech: ["Python", "FastAPI", "redis-py", "httpx", "rich", "pytest", "Docker"]
         }
     ];
 
