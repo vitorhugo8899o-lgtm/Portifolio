@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://vitorhugo8899o-lgtm.github.io/nome-do-repositorio",
+  "homepage": "https://portifolio-two-beta.vercel.app/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
@@ -11,7 +11,6 @@
     "build": "vite build"
   },
   "dependencies": {
-    "-": "^0.0.1",
     "@tailwindcss/vite": "^4.1.18",
     "autoprefixer": "^10.4.23",
     "lucide-react": "^0.562.0",
